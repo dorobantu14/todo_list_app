@@ -26,7 +26,7 @@ class _$AppRouter extends RootStackRouter {
     DashboardRoute.name: (routeData) {
       return MaterialPageX<dynamic>(
         routeData: routeData,
-        child: const DashboardScreen(),
+        child: WrappedRoute(child: const DashboardScreen()),
       );
     },
   };

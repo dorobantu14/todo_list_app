@@ -4,9 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:todo_list/core/text_styles/text_styles.dart';
 import 'package:todo_list/core/widgets/error_screen.dart';
 import 'package:todo_list/dashboard/data/todos_data.dart';
-import 'package:todo_list/dashboard/domain/dashboard_repository.dart';
+import 'package:todo_list/dashboard/domain/bloc/dashboard_bloc.dart';
+import 'package:todo_list/dashboard/domain/repository/dashboard_repository.dart';
 import 'package:todo_list/dashboard/entity/todo_task.dart';
-import 'package:todo_list/dashboard/presentation/bloc/dashboard_bloc.dart';
 import 'package:todo_list/dashboard/presentation/todo_item.dart';
 
 class DashboardScreen extends StatefulWidget with AutoRouteWrapper {
